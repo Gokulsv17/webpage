@@ -1,0 +1,39 @@
+.container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 50px;
+    /* row-gap: -100px; */
+}
+
+.profileCard {
+    width: 50%;
+    min-width: 25rem;
+    margin: 50px auto;
+    padding: 10px 20px 20px 20px;
+    display: flex;
+    background-color: rgb(231, 243, 241);
+    box-shadow: 12px 8px 6px rgb(35, 158, 230);
+  }
+ 
+  .image {
+    margin: 20px 10px 0px 20px;
+    align-items: stretch;
+    flex-direction: column;
+   
+  }
+.image img{
+    width: 150px;
+    height: 150px;
+    /* margin: 30px ; */
+    border-radius: 50%;
+    box-shadow: 10px 8px 6px rgb(76, 134, 235);
+/* filter: drop-shadow(10px 8px 6px #ff0055); */
+}
+
+.bio{
+    margin:20px auto ;
+    text-align:justify;
+}
+.bio label{
+    font-weight: bold;
+}

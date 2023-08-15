@@ -1,0 +1,17 @@
+.mainContainer{
+    height: 100vh;
+    overflow: hidden;
+}
+.topLayout{
+    position:absolute;
+    height:64px;
+    left:0%;
+    right:0%;
+    top:0px;
+    z-index:10;
+}
+.renderWrapper{
+    padding-top: 64px;
+    height: inherit;
+    position: relative;
+}
